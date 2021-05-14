@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    /* Diseño */
+    background-color: white;
+    /* Posicion */
+    display: block;
+    /* grid-template-columns: 1% main 1%; */
+    /* justify-content: center; */
+
+    /*Tamaño de página*/
+    /* height: fit-content; */
+
+    /* Estilos */
+    font-family: sans-serif;
+    
+}
+.results{
+    /* display: flex; */
+
+    /*posición en la página*/
+    /*estilos y fuente*/
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+
+}
+.title{
+    /* márgenes */
+    margin: 50px 0;
+    justify-self: flex-start;
+
+    width:min-content;
+
+}
+.box{
+    /* Posición dentro de la página */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Estilo dela tarjeta */
+    background-color: white;
+    border-radius: 3%;
+
+    height: 100%;
+    margin-bottom: 5%;
+
+}
+.cel{
+    /* tamaño de  imágen */
+    height: 480px;
+    width: 340px;
+
+    /* Edición de la imágen */
+    border-radius: 5%;
+}
+.view{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 10px;
+    border-radius: 1%;
+
+    background-color: white;
+}
+.footer-view{
+    display: none;
+    justify-content: center;
+
+    padding: 10px 0;
+    width: 100%;
+
+}
+.hide{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: flex-end;
+}
+p{
+    grid-column-start: 1;
+    font-weight: bold;
+    font-size: 20px;
+}
+.icon{
+    justify-self: center;
+    grid-column-start: 2;
+    min-width: 5%;
+    min-height: 5%;
+
+    width: 12px;
+    height: 10px;
+
+    padding-right: 5%;
+    padding-bottom: 5px;
+}
+.icon:hover{
+    cursor:pointer;
+}
+hr{
+    /* márgenes */
+    margin: 20px 0;
+}

@@ -1,0 +1,33 @@
+misTelefonos(
+    [
+        {
+            "marca":"huawei",
+            "S.O.":"android",
+            "memoria":"128GB",
+            "pantalla":"5.4",
+            "Foto":"img/huawei-p30-lite-81238-g-alt.jpg",
+        },
+        {
+            "marca":"moto",
+            "S.O.":"android",
+            "memoria":"128GB",
+            "pantalla":"5.4",
+            "Foto":"img/huawei-p40-lite-86112-g-alt.jpg",
+        },
+        {
+            "marca":"Samsung",
+            "S.O.":"android",
+            "memoria":"64GB",
+            "pantalla":"8.4",
+            "Foto":"img/smartphone-samsung-galaxy-note-10-lite-aura-negro.png",
+        },
+        {
+            "marca":"wiko",
+            "S.O.":"android",
+            "memoria":"24GB",
+            "pantalla":"10",
+            "Foto":"img/wiko-smartphone-example.jpg",
+        },
+        
+    ]
+)
