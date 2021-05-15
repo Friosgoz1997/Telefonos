@@ -28,10 +28,13 @@
 }
 .title{
     /* márgenes */
-    margin: 50px 0;
+    margin: 20px 50px;
     justify-self: flex-start;
 
     width:min-content;
+
+    font-size: 40px;
+    color: rgb(170, 170, 170);
 
 }
 .box{
@@ -66,7 +69,6 @@
     background-color: white;
 }
 .footer-view{
-    display: none;
     justify-content: center;
 
     padding: 10px 0;
@@ -101,4 +103,24 @@ p{
 hr{
     /* márgenes */
     margin: 20px 0;
+}
+#footer{
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: rgb(61, 61, 61);
+    height: 50px;
+    width: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+
+    color: white;
+
+}
+.name{
+    grid-row-start: 1;
+    justify-self: flex-start;
+}
+.date{
+    grid-row-start: 2;
+    justify-self: flex-end;
 }

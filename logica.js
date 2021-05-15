@@ -30,13 +30,13 @@ var misTelefonos = (datos) =>{
             html += `<div class='box' id="bx${counter}">
                         <div class="view">
                             <img class='cel' src= '${telefonos.Foto}' 
-                            title='${telefonos.Foto}' ></img>
+                            title='Articulo disponible' alt="image"></img>
                         </div>
                         <div class="hide">
                             <p>Características</p>
                             <img src='img/icon/down-arrow.png' class="icon" onclick='toHide(${counter++})'></img>
                         </div>
-                        <div class="footer-view">
+                        <div class="footer-view" style="display: none;">
                             <ul>`;
             for(propiedades in telefonos){
                 if(propiedades !== `Foto`){
@@ -54,6 +54,10 @@ var misTelefonos = (datos) =>{
     
 }//Fin de función mis teléfonos.
 
+const footer = document.getElementById("footer")
+footer.innerHTML = `<div class="name"> Instituto tecnológico José Mario Molina Pasquel y Henríquez </div> 
+                    <div class="date">${Date()};</div>`
+
     function toHide(i){
         let box = document.getElementById(`bx${i}`)
         let pie = box.querySelector(".footer-view")
@@ -67,9 +71,3 @@ var misTelefonos = (datos) =>{
             icono.setAttribute('src','img/icon/up-arrow.png')
         }
     }
-
-
-
-
-
-
